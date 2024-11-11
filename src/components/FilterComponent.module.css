@@ -1,0 +1,26 @@
+
+
+.filterSortingContain{
+    display: flex;
+    height: 8rem;
+    gap: 1rem;
+    text-align: left;
+    padding: 0.5rem;
+    border:  0.1rem rgb(238,238,238) solid;
+    margin-bottom: 2rem;
+  }
+  
+  
+  .filterSortingContain div{
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 6rem;
+    background: rgb(238, 238, 238);
+    padding: 0.5rem 1rem;
+  }
+  
+  .filterSortingContain fieldset{
+    border: 0rem;
+  }
