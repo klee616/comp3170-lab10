@@ -36,6 +36,7 @@
     justify-content: flex-start;
     flex-wrap: nowrap;
     padding: 0rem 2rem ;
+    width: 80%;
 }
 
 .info p{
