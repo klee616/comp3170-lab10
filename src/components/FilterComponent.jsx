@@ -1,6 +1,6 @@
  'use client'
 import React, { useState, useEffect } from 'react'
-import styles from './filterComponent.module.css'
+import styles from './FilterComponent.module.css'
 
 
 function FilterComponent  ({ subregions, continents, handleCallBack, data ={alpha:false} }) {
