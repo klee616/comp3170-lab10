@@ -43,7 +43,7 @@ export default function CountryContainer({ country }) {
                 </p>
                 <p>
                     <span>Population:</span>
-                    <span>{country.population}</span>
+                    <span>{country.population.toLocaleString()}</span>
                 </p>
                 <p>
                     <span>Languages:</span>
@@ -55,7 +55,7 @@ export default function CountryContainer({ country }) {
                 </p>
                 <p>
                     <span>Area (mi<sup>2</sup>):</span>
-                    <span>{country.area}</span>
+                    <span>{country.area.toLocaleString()}</span>
                 </p>
                 <p>
                     <span>Subregion:</span>
